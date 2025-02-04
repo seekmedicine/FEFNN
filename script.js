@@ -13,6 +13,14 @@ document.getElementById('toggle-password').addEventListener('click', function() 
     }
 });
 
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 50) {
+        document.querySelector('header').classList.add('scrolled');
+    } else {
+        document.querySelector('header').classList.remove('scrolled');
+    }
+});
+
 document.getElementById('accept-cookies').addEventListener('click', function() {
     document.getElementById('cookie-banner').style.display = 'none';
     localStorage.setItem('cookiesAccepted', 'true');
