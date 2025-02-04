@@ -75,8 +75,65 @@ footer {
 }
 
 
+@media (max-width: 1024px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #444;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        padding: 10px 0;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+
 
 @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #444;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        padding: 10px 0;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #444;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        padding: 10px 0;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+@media (max-width: 320px) {
     .nav-links {
         display: none;
         flex-direction: column;
